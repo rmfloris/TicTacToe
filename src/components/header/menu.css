@@ -1,0 +1,35 @@
+.menu {
+    box-sizing: border-box;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 3.5rem;
+    width: 100%;
+    padding-right: 0.5rem;
+    background-color: rgb(0, 0, 164);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 3.5rem 1fr 3.5rem 3.5rem;
+    grid-template-areas: 'menu-button logo account-button actions';
+    z-index: 301;
+}
+
+.menu_logo_link {
+    display: block;
+    grid-area: logo / logo / logo / logo;
+    justify-self: flex-start;
+}
+
+.menu * {
+    box-sizing: border-box;
+}
+
+.menu_logo_wrapper {
+    display: block;
+    width: 147px;
+    transform: translateY(0.25rem);
+}
+
+.menu_logo_wrapper .logo {
+    fill: white;
+}

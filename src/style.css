@@ -1,0 +1,21 @@
+body {
+    font-family: system-ui;
+    background: #f06d06;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    border: 1px #000 solid;
+    float: left;
+}
+
+.cardImage{
+    width: 150px;
+    height: 150px;
+}
+
+.container {
+    displey: flex;
+    width: 800px;
+}
